@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(200, 223, 229);
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 100px;
+    font-weight: bold;
+    border-top: 1px solid rgb(200, 223, 229);
+    border-bottom: 1px solid rgb(200, 223, 229);
+    box-shadow: 16px 12px 15px 13px rgba(0, 0, 0, 0.1);
+
+}
+
+span {
+    color: purple;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.container {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px gray;
+    width: 40%;
+    margin: auto;
+}
+
+.container .input {
+    width: 87%;
+    height: 20px;
+    /* margin: 5px; */
+    border-radius: 20px;
+}
+
+.container .btn {
+    background-color: palegreen;
+    width: 50px; 
+    height: 25px;
+    margin: 5px;
+    font-weight: bold;
+    border-radius: 20px
+}
+
+.container .btn:hover {
+    cursor: pointer;
+    background-color: skyblue;
+}
+
+.container ul {
+
+    list-style: decimal;
+    padding: 0px;
+}
+
+.container li {
+        color: green;
+        margin: 5px;
+
+}
+
+/* .container li a {
+    float: right;
+    /* font-size: 20px; */
+    /* color: #000; 
+    text-decoration: none;
+    font-weight: bold; 
+    cursor: pointer;
+} */ 
+.container ul li img{
+    width: 28px;
+    height: 24px;
+    float: right;
+}
+.container ul li a{
+    width: 28px;
+    height: 24px;
+    float: right;
+}
+#error {
+    color: red;
+    font-size: 14px;
+
+}
+/* .container li .remove{
+    border: 1px solid black;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: palegreen;
+    width: 60px; 
+    height: 25px;
+    margin: 5px;
+    font-weight: bold;
+    border-radius: 20px
+    
+} */
+/* .container li .edit{
+    border: 1px solid black;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: palegreen;
+    width: 50px; 
+    height: 25px;
+    margin: auto;
+    font-weight: bold;
+    border-radius: 20px
+} */

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <!-- <link rel="stylesheet" href="/todo-style/all.min.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600;700&family=Oswald:wght@200&family=Poppins&family=Roboto&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <!-- <i class="fa-solid fa-note"></i> -->
+        <h1><span>ToDo</span>&nbsp List</h1>
+    </header>
+    <div class="main">
+        <div class="container">
+            <ul id="box">
+            </ul>
+            <input type="text" id="name" class="input" placeholder="Add item...." />
+            <input type="button" value="Add" id="btnClick" class="btn" onclick="addMore()" />
+            <span id="error"></span>
+        </div>
+    </div>
+    <script src="/script/script.js"></script>
+    
+</body>
+
+</html>
